@@ -1,0 +1,3 @@
+primary : #2D2D39
+secondary : #6A6C84
+third: #4C4E66
