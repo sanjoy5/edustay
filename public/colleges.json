@@ -1,0 +1,54 @@
+[
+    {
+        "_id": 1,
+        "collegeImage": "https://i.ibb.co/gjFxCjY/clg1.jpg",
+        "collegeName": "Techton University",
+        "admissionDates": "2023-08-15 to 2023-09-30",
+        "events": [
+            "Orientation Day - 2023-09-10",
+            "Tech Fest - 2023-10-05",
+            "Alumni Reunion - 2024-05-15"
+        ],
+        "researchHistory": "Founded in 1950, Techton University has a rich history of groundbreaking research in engineering and technology.",
+        "sports": [
+            "Football",
+            "Basketball",
+            "Swimming",
+            "Tennis"
+        ]
+    },
+    {
+        "_id": 2,
+        "collegeImage": "https://i.ibb.co/gjFxCjY/clg1.jpg",
+        "collegeName": "Aurora College of Arts",
+        "admissionDates": "2023-07-25 to 2023-08-31",
+        "events": [
+            "Fine Arts Exhibition - 2023-09-05",
+            "Literary Festival - 2023-09-20",
+            "Dance Extravaganza - 2023-10-10"
+        ],
+        "researchHistory": "Aurora College of Arts has been at the forefront of promoting creativity and artistic expression since 1975.",
+        "sports": [
+            "Paintball",
+            "Volleyball",
+            "Badminton"
+        ]
+    },
+    {
+        "_id": 3,
+        "collegeImage": "https://i.ibb.co/gjFxCjY/clg1.jpg",
+        "collegeName": "Greenwood Institute of Environmental Sciences",
+        "admissionDates": "2023-09-01 to 2023-10-15",
+        "events": [
+            "Green Earth Day - 2023-10-02",
+            "Ecology Summit - 2023-11-05",
+            "Wildlife Photography Workshop - 2023-11-20"
+        ],
+        "researchHistory": "Established in 1990, Greenwood Institute is renowned for its research and contributions to environmental conservation.",
+        "sports": [
+            "Hiking",
+            "Canoeing",
+            "Gardening"
+        ]
+    }
+]

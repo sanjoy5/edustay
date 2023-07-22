@@ -1,11 +1,12 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Banner from '../components/Home/Banner';
+import PopularColleges from '../components/Home/PopularColleges';
 
 const Home = () => {
     return (
         <>
             <Banner />
+            <PopularColleges />
         </>
     );
 };
