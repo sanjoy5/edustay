@@ -3,52 +3,573 @@
         "_id": 1,
         "collegeImage": "https://i.ibb.co/gjFxCjY/clg1.jpg",
         "collegeName": "Techton University",
-        "admissionDates": "2023-08-15 to 2023-09-30",
+        "admissionProcess": {
+            "admissionDates": "2023-08-15 to 2023-09-30",
+            "eligibilityCriteria": "Candidates must have completed their high school education with a minimum GPA of 3.5.",
+            "applicationProcedure": "Interested applicants can apply online through our website or download the application form and submit it to the admissions office.",
+            "admissionTests": {
+                "testName": "Techton Entrance Exam",
+                "testDate": "2023-09-15",
+                "testVenue": "Techton University Campus"
+            }
+        },
         "events": [
-            "Orientation Day - 2023-09-10",
-            "Tech Fest - 2023-10-05",
-            "Alumni Reunion - 2024-05-15"
+            {
+                "eventName": "Orientation Day",
+                "eventDate": "2023-09-10",
+                "eventDescription": "The Orientation Day is designed to welcome all new students and introduce them to the campus, faculty, and facilities."
+            },
+            {
+                "eventName": "Tech Fest",
+                "eventDate": "2023-10-05",
+                "eventDescription": "Tech Fest is an annual extravaganza showcasing the innovative projects and technological advancements by students and faculty."
+            },
+            {
+                "eventName": "Alumni Reunion",
+                "eventDate": "2024-05-15",
+                "eventDescription": "The Alumni Reunion is an opportunity for former students to reconnect, share experiences, and celebrate their achievements."
+            }
         ],
-        "researchHistory": "Founded in 1950, Techton University has a rich history of groundbreaking research in engineering and technology.",
-        "sports": [
+        "researchWorks": [
+            {
+                "title": "Advancements in Nanotechnology",
+                "authors": [
+                    "Dr. John Smith",
+                    "Dr. Emily Johnson"
+                ],
+                "publicationDate": "2022-11-20",
+                "description": "This research paper highlights the recent breakthroughs in nanotechnology and its potential applications in various fields."
+            },
+            {
+                "title": "Artificial Intelligence and Robotics",
+                "authors": [
+                    "Prof. Michael Brown",
+                    "Dr. Lisa Williams"
+                ],
+                "publicationDate": "2023-02-12",
+                "description": "The research explores the integration of artificial intelligence and robotics in automating various tasks and its impact on society."
+            }
+        ],
+        "sportsCategories": [
             "Football",
             "Basketball",
             "Swimming",
             "Tennis"
-        ]
+        ],
+        "facilities": {
+            "campusArea": "150 acres",
+            "libraries": 2,
+            "laboratories": 10,
+            "sportsComplex": true,
+            "hostelAccommodation": true
+        }
     },
     {
         "_id": 2,
-        "collegeImage": "https://i.ibb.co/gjFxCjY/clg1.jpg",
+        "collegeImage": "https://i.ibb.co/s9Vd0Qw/clg2.jpg",
         "collegeName": "Aurora College of Arts",
-        "admissionDates": "2023-07-25 to 2023-08-31",
+        "admissionProcess": {
+            "admissionDates": "2023-07-25 to 2023-08-31",
+            "eligibilityCriteria": "Applicants must have a passion for arts and submit a portfolio showcasing their artistic work.",
+            "applicationProcedure": "Prospective students can apply through the online application form available on our website.",
+            "admissionTests": null
+        },
         "events": [
-            "Fine Arts Exhibition - 2023-09-05",
-            "Literary Festival - 2023-09-20",
-            "Dance Extravaganza - 2023-10-10"
+            {
+                "eventName": "Fine Arts Exhibition",
+                "eventDate": "2023-09-05",
+                "eventDescription": "The Fine Arts Exhibition features exceptional artworks by students and renowned artists, providing an immersive artistic experience."
+            },
+            {
+                "eventName": "Literary Festival",
+                "eventDate": "2023-09-20",
+                "eventDescription": "The Literary Festival celebrates the world of literature through book readings, author talks, and creative writing workshops."
+            },
+            {
+                "eventName": "Dance Extravaganza",
+                "eventDate": "2023-10-10",
+                "eventDescription": "The Dance Extravaganza showcases captivating dance performances by students and dance troupes from across the country."
+            }
         ],
-        "researchHistory": "Aurora College of Arts has been at the forefront of promoting creativity and artistic expression since 1975.",
-        "sports": [
+        "researchWorks": [
+            {
+                "title": "Exploring Abstract Art",
+                "authors": [
+                    "Prof. Julia Turner",
+                    "Dr. Ethan Carter"
+                ],
+                "publicationDate": "2023-01-10",
+                "description": "This research delves into the history and evolution of abstract art, exploring its impact on modern art movements."
+            }
+        ],
+        "sportsCategories": [
             "Paintball",
             "Volleyball",
             "Badminton"
-        ]
+        ],
+        "facilities": {
+            "campusArea": "100 acres",
+            "libraries": 1,
+            "studios": 8,
+            "hostelAccommodation": true
+        }
     },
     {
         "_id": 3,
-        "collegeImage": "https://i.ibb.co/gjFxCjY/clg1.jpg",
+        "collegeImage": "https://i.ibb.co/nfdQY9Z/clg3.jpg",
         "collegeName": "Greenwood Institute of Environmental Sciences",
-        "admissionDates": "2023-09-01 to 2023-10-15",
+        "admissionProcess": {
+            "admissionDates": "2023-09-01 to 2023-10-15",
+            "eligibilityCriteria": "Applicants should have a background in science and a strong interest in environmental conservation.",
+            "applicationProcedure": "Applications can be submitted online or in-person at the institute's admission office.",
+            "admissionTests": {
+                "testName": "Environmental Sciences Entrance Test",
+                "testDate": "2023-09-20",
+                "testVenue": "Greenwood Institute Campus"
+            }
+        },
         "events": [
-            "Green Earth Day - 2023-10-02",
-            "Ecology Summit - 2023-11-05",
-            "Wildlife Photography Workshop - 2023-11-20"
+            {
+                "eventName": "Green Earth Day",
+                "eventDate": "2023-10-02",
+                "eventDescription": "Green Earth Day celebrates sustainable practices and raises awareness about environmental challenges and solutions."
+            },
+            {
+                "eventName": "Ecology Summit",
+                "eventDate": "2023-11-05",
+                "eventDescription": "The Ecology Summit brings together renowned ecologists and environmentalists to discuss pressing ecological issues."
+            },
+            {
+                "eventName": "Wildlife Photography Workshop",
+                "eventDate": "2023-11-20",
+                "eventDescription": "The Wildlife Photography Workshop offers participants a chance to learn wildlife photography techniques in natural settings."
+            }
         ],
-        "researchHistory": "Established in 1990, Greenwood Institute is renowned for its research and contributions to environmental conservation.",
-        "sports": [
+        "researchWorks": [
+            {
+                "title": "Conservation of Endangered Species",
+                "authors": [
+                    "Dr. Sarah Adams",
+                    "Prof. Robert Johnson"
+                ],
+                "publicationDate": "2023-03-18",
+                "description": "This research work emphasizes the urgent need for conservation efforts to protect endangered species and their habitats."
+            }
+        ],
+        "sportsCategories": [
             "Hiking",
             "Canoeing",
             "Gardening"
-        ]
+        ],
+        "facilities": {
+            "campusArea": "200 acres",
+            "libraries": 1,
+            "laboratories": 5,
+            "sportsComplex": true,
+            "hostelAccommodation": true
+        }
+    },
+    {
+        "_id": 4,
+        "collegeImage": "https://i.ibb.co/k53md94/clg4.jpg",
+        "collegeName": "Harmony Music Conservatory",
+        "admissionProcess": {
+            "admissionDates": "2023-08-01 to 2023-09-15",
+            "eligibilityCriteria": "Applicants must demonstrate proficiency in playing an instrument or singing during the audition process.",
+            "applicationProcedure": "Prospective students can apply online through the conservatory's website and schedule an audition.",
+            "admissionTests": null
+        },
+        "events": [
+            {
+                "eventName": "Annual Spring Concert",
+                "eventDate": "2023-09-25",
+                "eventDescription": "The Annual Spring Concert showcases the exceptional talents of our music students and faculty in a mesmerizing performance."
+            },
+            {
+                "eventName": "Masterclass with Renowned Pianist",
+                "eventDate": "2023-10-10",
+                "eventDescription": "An exclusive masterclass led by a world-renowned pianist, offering valuable insights and guidance to selected students."
+            },
+            {
+                "eventName": "Music Festival",
+                "eventDate": "2023-11-15",
+                "eventDescription": "The Music Festival features diverse musical genres and performances by students, promoting cultural appreciation through music."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Advancements in Cancer Research",
+                "authors": [
+                    "Dr. Sarah Johnson",
+                    "Prof. David Roberts"
+                ],
+                "publicationDate": "2023-03-25",
+                "description": "This research delves into recent breakthroughs in cancer research, exploring novel treatments and early detection methods."
+            }
+        ],
+        "sportsCategories": [
+            "Cricket",
+            "Tennis",
+            "Table Tennis",
+            "Swimming"
+        ],
+        "facilities": {
+            "campusArea": "50 acres",
+            "practiceRooms": 10,
+            "recitalHall": true,
+            "hostelAccommodation": true
+        }
+    },
+    {
+        "_id": 5,
+        "collegeImage": "https://i.ibb.co/7tvwVVJ/clg5.jpg",
+        "collegeName": "Medico Medical College",
+        "admissionProcess": {
+            "admissionDates": "2023-07-15 to 2023-09-30",
+            "eligibilityCriteria": "Aspiring students must have completed high school with a strong background in science subjects.",
+            "applicationProcedure": "Applicants need to appear for the Medical College Admission Test (MCAT) and submit the application form online.",
+            "admissionTests": {
+                "testName": "Medical College Admission Test (MCAT)",
+                "testDate": "2023-09-20",
+                "testVenue": "Medico Medical College Campus"
+            }
+        },
+        "events": [
+            {
+                "eventName": "White Coat Ceremony",
+                "eventDate": "2023-10-05",
+                "eventDescription": "The White Coat Ceremony marks the beginning of the medical journey for new students, symbolizing their commitment to patient care."
+            },
+            {
+                "eventName": "Medical Symposium",
+                "eventDate": "2023-11-10",
+                "eventDescription": "The Medical Symposium brings together experts in various medical fields to discuss the latest research and advancements."
+            },
+            {
+                "eventName": "Health Camp",
+                "eventDate": "2023-12-15",
+                "eventDescription": "Medico Medical College organizes health camps to provide medical services to underserved communities and promote public health."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Advancements in Cancer Research",
+                "authors": [
+                    "Dr. Sarah Johnson",
+                    "Prof. David Roberts"
+                ],
+                "publicationDate": "2023-03-25",
+                "description": "This research delves into recent breakthroughs in cancer research, exploring novel treatments and early detection methods."
+            }
+        ],
+        "sportsCategories": [
+            "Cricket",
+            "Tennis",
+            "Table Tennis",
+            "Swimming"
+        ],
+        "facilities": {
+            "campusArea": "300 acres",
+            "libraries": 2,
+            "labs": 15,
+            "hospitalFacilities": true,
+            "hostelAccommodation": true
+        }
+    },
+    {
+        "_id": 6,
+        "collegeImage": "https://i.ibb.co/48qb7n4/clg6.jpg",
+        "collegeName": "Academic Institute of Technology",
+        "admissionProcess": {
+            "admissionDates": "2023-08-10 to 2023-09-25",
+            "eligibilityCriteria": "Applicants should have completed high school with a strong background in science and mathematics.",
+            "applicationProcedure": "Prospective students can apply online and may be required to appear for an entrance examination based on their chosen program.",
+            "admissionTests": {
+                "testName": "AIT Entrance Examination",
+                "testDate": "2023-09-15",
+                "testVenue": "Academic Institute of Technology Campus"
+            }
+        },
+        "events": [
+            {
+                "eventName": "Tech Symposium",
+                "eventDate": "2023-10-10",
+                "eventDescription": "The Tech Symposium features presentations and workshops on cutting-edge technologies and innovations by experts in the field."
+            },
+            {
+                "eventName": "Hackathon",
+                "eventDate": "2023-11-05",
+                "eventDescription": "The Hackathon is a competitive coding event where participants develop software solutions to real-world challenges."
+            },
+            {
+                "eventName": "Entrepreneurship Summit",
+                "eventDate": "2023-12-15",
+                "eventDescription": "The Entrepreneurship Summit brings successful entrepreneurs to inspire and mentor students interested in startups."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Advancements in Artificial Intelligence",
+                "authors": [
+                    "Prof. Michael Lee",
+                    "Dr. Emily Wilson"
+                ],
+                "publicationDate": "2023-02-18",
+                "description": "This research explores recent developments in artificial intelligence and its impact on various industries and daily life."
+            },
+            {
+                "title": "Sustainable Energy Solutions",
+                "authors": [
+                    "Dr. Robert Green",
+                    "Prof. Susan Anderson"
+                ],
+                "publicationDate": "2023-04-05",
+                "description": "The research investigates sustainable energy technologies to address the challenges of climate change and energy conservation."
+            }
+        ],
+        "sportsCategories": [
+            "Football",
+            "Basketball",
+            "Athletics",
+            "Badminton"
+        ],
+        "facilities": {
+            "campusArea": "250 acres",
+            "labs": 12,
+            "innovationHub": true,
+            "hostelAccommodation": true
+        }
+    },
+    {
+        "_id": 7,
+        "collegeImage": "https://i.ibb.co/9GWb748/clg7.jpg",
+        "collegeName": "International Business School",
+        "admissionProcess": {
+            "admissionDates": "2023-08-20 to 2023-09-30",
+            "eligibilityCriteria": "Applicants must hold a bachelor's degree from a recognized university and demonstrate English language proficiency.",
+            "applicationProcedure": "Candidates need to submit an online application and may be required to attend a personal interview.",
+            "admissionTests": null
+        },
+        "events": [
+            {
+                "eventName": "Business Conclave",
+                "eventDate": "2023-10-10",
+                "eventDescription": "The Business Conclave features panel discussions and keynote speeches on current business trends and challenges."
+            },
+            {
+                "eventName": "Global Marketing Summit",
+                "eventDate": "2023-11-15",
+                "eventDescription": "The Global Marketing Summit explores the latest strategies in international marketing and brand management."
+            },
+            {
+                "eventName": "Entrepreneurship Bootcamp",
+                "eventDate": "2023-12-10",
+                "eventDescription": "The Entrepreneurship Bootcamp offers aspiring entrepreneurs workshops and mentorship to develop business ideas."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Advancements in Nanotechnology",
+                "authors": [
+                    "Dr. John Smith",
+                    "Dr. Emily Johnson"
+                ],
+                "publicationDate": "2022-11-20",
+                "description": "This research paper highlights the recent breakthroughs in nanotechnology and its potential applications in various fields."
+            },
+            {
+                "title": "Artificial Intelligence and Robotics",
+                "authors": [
+                    "Prof. Michael Brown",
+                    "Dr. Lisa Williams"
+                ],
+                "publicationDate": "2023-02-12",
+                "description": "The research explores the integration of artificial intelligence and robotics in automating various tasks and its impact on society."
+            }
+        ],
+        "sportsCategories": [
+            "Football",
+            "Basketball",
+            "Cricket",
+            "Tennis"
+        ],
+        "facilities": {
+            "campusArea": "200 acres",
+            "libraries": 1,
+            "computerLabs": 5,
+            "businessIncubator": true,
+            "hostelAccommodation": true
+        }
+    },
+    {
+        "_id": 8,
+        "collegeImage": "https://i.ibb.co/C7vhsyY/clg8.jpg",
+        "collegeName": "Artisan Culinary Institute",
+        "admissionProcess": {
+            "admissionDates": "2023-07-01 to 2023-09-15",
+            "eligibilityCriteria": "Applicants should have a passion for culinary arts and submit a portfolio showcasing their culinary creations.",
+            "applicationProcedure": "Prospective students can apply online through the institute's website and may be required to appear for a culinary test.",
+            "admissionTests": {
+                "testName": "Culinary Aptitude Test",
+                "testDate": "2023-08-20",
+                "testVenue": "Artisan Culinary Institute Campus"
+            }
+        },
+        "events": [
+            {
+                "eventName": "Food Festival",
+                "eventDate": "2023-09-25",
+                "eventDescription": "The Food Festival celebrates diverse culinary traditions, offering a gastronomic experience to food enthusiasts."
+            },
+            {
+                "eventName": "Chef's Showcase",
+                "eventDate": "2023-10-10",
+                "eventDescription": "The Chef's Showcase features demonstrations and cook-offs by renowned chefs, inspiring aspiring culinary artists."
+            },
+            {
+                "eventName": "Farm-to-Table Workshop",
+                "eventDate": "2023-11-15",
+                "eventDescription": "The Farm-to-Table Workshop educates participants on sourcing local, sustainable ingredients for culinary creations."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Artificial Intelligence and Robotics",
+                "authors": [
+                    "Prof. Michael Brown",
+                    "Dr. Lisa Williams"
+                ],
+                "publicationDate": "2023-02-12",
+                "description": "The research explores the integration of artificial intelligence and robotics in automating various tasks and its impact on society."
+            }
+        ],
+        "sportsCategories": [
+            "Table Tennis",
+            "Swimming"
+        ],
+        "facilities": {
+            "campusArea": "100 acres",
+            "kitchens": 6,
+            "bakery": true,
+            "trainingRestaurant": true,
+            "hostelAccommodation": true
+        }
+    },
+    {
+        "_id": 9,
+        "collegeImage": "https://i.ibb.co/Jm6y7Kh/clg9.jpg",
+        "collegeName": "Nova Institute of Astronomy",
+        "admissionProcess": {
+            "admissionDates": "2023-08-05 to 2023-09-30",
+            "eligibilityCriteria": "Candidates with a background in physics or astronomy and a passion for space exploration are encouraged to apply.",
+            "applicationProcedure": "Applicants must submit their academic transcripts and a statement of purpose outlining their interest in astronomy.",
+            "admissionTests": null
+        },
+        "events": [
+            {
+                "eventName": "Astronomy Night",
+                "eventDate": "2023-10-05",
+                "eventDescription": "Astronomy Night offers stargazing sessions and telescope observations, providing a glimpse into the wonders of the universe."
+            },
+            {
+                "eventName": "Astrobiology Symposium",
+                "eventDate": "2023-11-10",
+                "eventDescription": "The Astrobiology Symposium explores the possibilities of life beyond Earth and the search for extraterrestrial life."
+            },
+            {
+                "eventName": "Space Mission Simulation",
+                "eventDate": "2023-12-15",
+                "eventDescription": "The Space Mission Simulation offers students a hands-on experience of planning and executing a space mission."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Discovering Exoplanets",
+                "authors": [
+                    "Dr. James Carter",
+                    "Dr. Emma Wilson"
+                ],
+                "publicationDate": "2023-02-18",
+                "description": "This research focuses on the discovery and characterization of exoplanets using advanced astronomical techniques."
+            },
+            {
+                "title": "Cosmic Evolution",
+                "authors": [
+                    "Prof. Sarah Lee",
+                    "Dr. John Allen"
+                ],
+                "publicationDate": "2023-04-10",
+                "description": "The research explores the evolution of galaxies and the cosmos, shedding light on the origins of the universe."
+            }
+        ],
+        "sportsCategories": [
+            "Astronomical Observations"
+        ],
+        "facilities": {
+            "observatory": true,
+            "planetarium": true,
+            "hostelAccommodation": true
+        }
+    },
+    {
+        "_id": 10,
+        "collegeImage": "https://i.ibb.co/GHYTwrc/clg10.jpg",
+        "collegeName": "Polyglot Language Academy",
+        "admissionProcess": {
+            "admissionDates": "2023-08-15 to 2023-09-30",
+            "eligibilityCriteria": "Language enthusiasts with a desire to learn new languages are welcome to apply.",
+            "applicationProcedure": "Prospective students can fill out the online application form and may be required to take a language proficiency test.",
+            "admissionTests": {
+                "testName": "Language Proficiency Test",
+                "testDate": "2023-09-15",
+                "testVenue": "Polyglot Language Academy Campus"
+            }
+        },
+        "events": [
+            {
+                "eventName": "Language Carnival",
+                "eventDate": "2023-10-10",
+                "eventDescription": "The Language Carnival celebrates linguistic diversity with language workshops, cultural performances, and language games."
+            },
+            {
+                "eventName": "International Film Festival",
+                "eventDate": "2023-11-05",
+                "eventDescription": "The International Film Festival showcases foreign films, providing an opportunity to explore diverse cultures."
+            },
+            {
+                "eventName": "Language Exchange Fair",
+                "eventDate": "2023-12-10",
+                "eventDescription": "The Language Exchange Fair facilitates language learning through interactive sessions with native speakers."
+            }
+        ],
+        "researchWorks": [
+            {
+                "title": "Discovering Exoplanets",
+                "authors": [
+                    "Dr. James Carter",
+                    "Dr. Emma Wilson"
+                ],
+                "publicationDate": "2023-02-18",
+                "description": "This research focuses on the discovery and characterization of exoplanets using advanced astronomical techniques."
+            },
+            {
+                "title": "Cosmic Evolution",
+                "authors": [
+                    "Prof. Sarah Lee",
+                    "Dr. John Allen"
+                ],
+                "publicationDate": "2023-04-10",
+                "description": "The research explores the evolution of galaxies and the cosmos, shedding light on the origins of the universe."
+            }
+        ],
+        "sportsCategories": [
+            "Language Olympics"
+        ],
+        "facilities": {
+            "campusArea": "80 acres",
+            "languageLaboratories": 4,
+            "languageLibrary": true,
+            "hostelAccommodation": true
+        }
     }
 ]
