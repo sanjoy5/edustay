@@ -46,8 +46,8 @@ const Navbar = () => {
                     <div className="navbar-end space-x-3">
                         {
                             user ? <>
-                                <label className="btn btn-ghost btn-circle avatar tooltip tooltip-bottom" data-tip={user?.displayName}>
-                                    <div className="w-10 md:w-12 rounded-full">
+                                <label className="btn btn-ghost btn-circle avatar tooltip tooltip-bottom mr-1" data-tip={user?.displayName}>
+                                    <div className="w-10 md:w-11 rounded-full">
                                         <img src={user?.photoURL} className='object-cover object-top' />
                                     </div>
                                 </label>
