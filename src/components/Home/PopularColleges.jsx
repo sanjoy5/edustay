@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Colleges from './Colleges';
+import HomeColleges from './HomeColleges';
+
 
 const PopularColleges = () => {
     const [colleges, setColleges] = useState([])
@@ -21,7 +22,7 @@ const PopularColleges = () => {
             <div className="flex flex-wrap">
                 <div className="flex flex-wrap -m-4">
 
-                    <Colleges colleges={colleges} />
+                    <HomeColleges colleges={colleges.slice(0, 3)} />
 
                 </div>
             </div>

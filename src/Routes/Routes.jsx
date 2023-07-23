@@ -4,6 +4,11 @@ import {
 import Main from "../layout/Main";
 import Home from "../pages/Home";
 import CollegeDetails from "../pages/CollegeDetails";
+import College from "../pages/College";
+import Login from "../pages/Login";
+import Signup from "../pages/Signup";
+import PrivateRoute from "./PrivateRoute";
+import Success from "../pages/Success";
 
 const router = createBrowserRouter([
     {
@@ -16,9 +21,25 @@ const router = createBrowserRouter([
             },
             {
                 path: '/college-details/:id',
-                element: <CollegeDetails />,
+                element: <PrivateRoute><CollegeDetails /></PrivateRoute>,
+            },
+            {
+                path: '/colleges',
+                element: <College />,
             },
         ]
+    },
+    {
+        path: '/login',
+        element: <Login />,
+    },
+    {
+        path: '/signup',
+        element: <Signup />,
+    },
+    {
+        path: '/success',
+        element: <Success />,
     },
 ]);
 

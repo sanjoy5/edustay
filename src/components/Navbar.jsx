@@ -1,15 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ActiveLink from './ActiveLink';
+import { useAuthContext } from '../AuthProvider/AuthProvider';
 
 const Navbar = () => {
+    const { user, logOut } = useAuthContext()
+
+    const handleLogout = () => {
+        logOut()
+            .then(() => { })
+            .catch(error => console.log(error))
+    }
 
     const navLinks = <>
         <ActiveLink to='/'>Home</ActiveLink>
         <ActiveLink to='/colleges'>Colleges</ActiveLink>
         <ActiveLink to='/addmission'>Admission</ActiveLink>
-        <ActiveLink to='/my-college'>My College</ActiveLink>
-
+        {
+            user && <ActiveLink to='/my-college'>My College</ActiveLink>
+        }
     </>
 
     return (
@@ -32,9 +41,27 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <div className="navbar-end">
-                        <Link className="inline-flex text-white bg-[#6A6C84] border-0 py-2 md:py-3 px-6 md:px-8 focus:outline-none hover:bg-[#4C4E66] rounded text-lg">Sign Up</Link>
+
+
+                    <div className="navbar-end space-x-3">
+                        {
+                            user ? <>
+                                <label className="btn btn-ghost btn-circle avatar tooltip tooltip-bottom" data-tip={user?.displayName}>
+                                    <div className="w-10 md:w-12 rounded-full">
+                                        <img src={user?.photoURL} className='object-cover object-top' />
+                                    </div>
+                                </label>
+                                <button onClick={handleLogout} className='inline-flex text-white bg-[#6A6C84] border-0 py-2 md:py-3 px-6 md:px-8 focus:outline-none hover:bg-[#4C4E66] rounded text-lg'>Logout</button>
+                            </> : <>
+                                <Link to='/login' className="inline-flex text-white bg-[#6A6C84] border-0 py-2 md:py-3 px-6 md:px-8 focus:outline-none hover:bg-[#4C4E66] rounded text-lg">Login</Link>
+                            </>
+                        }
+
+
                     </div>
+
+
+
                 </div>
             </div>
         </>

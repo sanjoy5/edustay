@@ -3,6 +3,7 @@
         "_id": 1,
         "collegeImage": "https://i.ibb.co/gjFxCjY/clg1.jpg",
         "collegeName": "Techton University",
+        "rating": "4.5",
         "admissionProcess": {
             "admissionDates": "2023-08-15 to 2023-09-30",
             "eligibilityCriteria": "Candidates must have completed their high school education with a minimum GPA of 3.5.",
@@ -68,6 +69,7 @@
         "_id": 2,
         "collegeImage": "https://i.ibb.co/s9Vd0Qw/clg2.jpg",
         "collegeName": "Aurora College of Arts",
+        "rating": "5",
         "admissionProcess": {
             "admissionDates": "2023-07-25 to 2023-08-31",
             "eligibilityCriteria": "Applicants must have a passion for arts and submit a portfolio showcasing their artistic work.",
@@ -118,6 +120,7 @@
         "_id": 3,
         "collegeImage": "https://i.ibb.co/nfdQY9Z/clg3.jpg",
         "collegeName": "Greenwood Institute of Environmental Sciences",
+        "rating": "4",
         "admissionProcess": {
             "admissionDates": "2023-09-01 to 2023-10-15",
             "eligibilityCriteria": "Applicants should have a background in science and a strong interest in environmental conservation.",
@@ -173,6 +176,7 @@
         "_id": 4,
         "collegeImage": "https://i.ibb.co/k53md94/clg4.jpg",
         "collegeName": "Harmony Music Conservatory",
+        "rating": "5",
         "admissionProcess": {
             "admissionDates": "2023-08-01 to 2023-09-15",
             "eligibilityCriteria": "Applicants must demonstrate proficiency in playing an instrument or singing during the audition process.",
@@ -224,6 +228,7 @@
         "_id": 5,
         "collegeImage": "https://i.ibb.co/7tvwVVJ/clg5.jpg",
         "collegeName": "Medico Medical College",
+        "rating": "3.5",
         "admissionProcess": {
             "admissionDates": "2023-07-15 to 2023-09-30",
             "eligibilityCriteria": "Aspiring students must have completed high school with a strong background in science subjects.",
@@ -280,6 +285,7 @@
         "_id": 6,
         "collegeImage": "https://i.ibb.co/48qb7n4/clg6.jpg",
         "collegeName": "Academic Institute of Technology",
+        "rating": "4.5",
         "admissionProcess": {
             "admissionDates": "2023-08-10 to 2023-09-25",
             "eligibilityCriteria": "Applicants should have completed high school with a strong background in science and mathematics.",
@@ -344,6 +350,7 @@
         "_id": 7,
         "collegeImage": "https://i.ibb.co/9GWb748/clg7.jpg",
         "collegeName": "International Business School",
+        "rating": "5",
         "admissionProcess": {
             "admissionDates": "2023-08-20 to 2023-09-30",
             "eligibilityCriteria": "Applicants must hold a bachelor's degree from a recognized university and demonstrate English language proficiency.",
@@ -405,6 +412,7 @@
         "_id": 8,
         "collegeImage": "https://i.ibb.co/C7vhsyY/clg8.jpg",
         "collegeName": "Artisan Culinary Institute",
+        "rating": "4.5",
         "admissionProcess": {
             "admissionDates": "2023-07-01 to 2023-09-15",
             "eligibilityCriteria": "Applicants should have a passion for culinary arts and submit a portfolio showcasing their culinary creations.",
@@ -459,6 +467,7 @@
         "_id": 9,
         "collegeImage": "https://i.ibb.co/Jm6y7Kh/clg9.jpg",
         "collegeName": "Nova Institute of Astronomy",
+        "rating": "4",
         "admissionProcess": {
             "admissionDates": "2023-08-05 to 2023-09-30",
             "eligibilityCriteria": "Candidates with a background in physics or astronomy and a passion for space exploration are encouraged to apply.",
@@ -515,6 +524,7 @@
         "_id": 10,
         "collegeImage": "https://i.ibb.co/GHYTwrc/clg10.jpg",
         "collegeName": "Polyglot Language Academy",
+        "rating": "5",
         "admissionProcess": {
             "admissionDates": "2023-08-15 to 2023-09-30",
             "eligibilityCriteria": "Language enthusiasts with a desire to learn new languages are welcome to apply.",

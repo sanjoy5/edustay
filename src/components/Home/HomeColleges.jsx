@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Colleges = ({ colleges }) => {
+const HomeColleges = ({ colleges }) => {
     return (
         <>
             {
-                colleges.slice(0, 3).map(college => {
+                colleges.map(college => {
                     const { _id, collegeImage, collegeName, admissionProcess, events, researchWorks, sportsCategories } = college;
                     return (
                         <div className="p-4 w-full" key={_id}>
@@ -59,4 +59,4 @@ const Colleges = ({ colleges }) => {
     );
 };
 
-export default Colleges;
+export default HomeColleges;
