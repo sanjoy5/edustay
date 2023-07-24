@@ -17,7 +17,7 @@ const College = () => {
 
     return (
         <>
-            <CollegesBanner />
+            <CollegesBanner text='All colleges' />
             <section className='pt-24 pb-10 max-w-7xl mx-auto px-4'>
                 <div className="flex flex-wrap">
                     <div className="flex flex-wrap -m-4">

@@ -15,7 +15,7 @@ const Navbar = () => {
     const navLinks = <>
         <ActiveLink to='/'>Home</ActiveLink>
         <ActiveLink to='/colleges'>Colleges</ActiveLink>
-        <ActiveLink to='/addmission'>Admission</ActiveLink>
+        <ActiveLink to='/admission'>Admission</ActiveLink>
         {
             user && <ActiveLink to='/my-college'>My College</ActiveLink>
         }
