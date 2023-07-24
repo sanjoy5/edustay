@@ -2,17 +2,8 @@ import React, { useEffect, useState } from 'react';
 import HomeColleges from './HomeColleges';
 
 
-const PopularColleges = () => {
-    const [colleges, setColleges] = useState([])
+const PopularColleges = ({ colleges }) => {
 
-    useEffect(() => {
-        fetch('http://127.0.0.1:5000/colleges')
-            .then(res => res.json())
-            .then(data => {
-                // console.log(data);
-                setColleges(data)
-            })
-    }, [])
 
     return (
         <section className='pt-14 pb-10 max-w-7xl mx-auto px-4'>

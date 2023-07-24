@@ -46,11 +46,11 @@ const Navbar = () => {
                     <div className="navbar-end space-x-3">
                         {
                             user ? <>
-                                <label className="btn btn-ghost btn-circle avatar tooltip tooltip-bottom mr-1" data-tip={user?.displayName}>
+                                <Link to='/profile' className="btn btn-ghost btn-circle avatar tooltip tooltip-bottom " data-tip={user?.displayName}>
                                     <div className="w-10 md:w-11 rounded-full">
                                         <img src={user?.photoURL} className='object-cover object-top' />
                                     </div>
-                                </label>
+                                </Link>
                                 <button onClick={handleLogout} className='inline-flex text-white bg-[#6A6C84] border-0 py-2 md:py-3 px-6 md:px-8 focus:outline-none hover:bg-[#4C4E66] rounded text-lg'>Logout</button>
                             </> : <>
                                 <Link to='/login' className="inline-flex text-white bg-[#6A6C84] border-0 py-2 md:py-3 px-6 md:px-8 focus:outline-none hover:bg-[#4C4E66] rounded text-lg">Login</Link>

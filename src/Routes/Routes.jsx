@@ -13,6 +13,8 @@ import ErrorPage from "../pages/ErrorPage";
 import Admission from "../pages/Admission";
 import AdmissionForm from "../pages/AdmissionForm";
 import MyCollege from "../pages/MyCollege";
+import Profile from "../pages/Profile";
+import UpdateProfile from "../pages/UpdateProfile";
 
 const router = createBrowserRouter([
     {
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
                 path: '/my-college',
                 element: <PrivateRoute><MyCollege /></PrivateRoute>,
                 loader: () => fetch('http://127.0.0.1:5000/colleges')
+            },
+            {
+                path: '/profile',
+                element: <PrivateRoute><Profile /></PrivateRoute>,
+            },
+            {
+                path: '/update-profile',
+                element: <PrivateRoute><UpdateProfile /></PrivateRoute>,
             }
         ]
     },

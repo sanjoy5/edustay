@@ -80,7 +80,7 @@ const CollegeDetail = ({ college }) => {
                 {facilities?.languageLibrary && <p className="text-base font-semibold">Language Library: {facilities?.languageLibrary}</p>}
             </div>
 
-            <div className="border rounded p-3 md:p-6 shadow my-10">
+            <div className="border rounded p-3 md:p-6 shadow mt-10">
                 <h2 className="text-3xl font-semibold mb-3">Sports Categories</h2>
 
                 {

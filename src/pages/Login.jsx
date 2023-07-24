@@ -47,11 +47,21 @@ const Login = () => {
     const handleLoginWithGoogle = () => {
         googleSignIn()
             .then(result => {
-                const loggedUser = result.user;
-                // console.log(loggedUser);
-                setError("")
-                navigate(from, { replace: true });
+                const loggedUser = result.user
+                const saveUser = { name: loggedUser.displayName, email: loggedUser.email, photo: loggedUser.photoURL }
+                fetch('http://127.0.0.1:5000/users', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(saveUser)
+                })
+                    .then(res => res.json())
+                    .then(() => {
+                        navigate(from, { replace: true })
+                    })
             })
+
             .catch(error => {
                 setError(error.message)
             })
@@ -60,11 +70,21 @@ const Login = () => {
     const handleGithubSignIn = () => {
         githubSignIn()
             .then(result => {
-                const loggedUser = result.user;
-                // console.log(loggedUser);
-                setError("")
-                navigate(from, { replace: true });
+                const loggedUser = result.user
+                const saveUser = { name: loggedUser.displayName, email: loggedUser.email, photo: loggedUser.photoURL, role: 'student' }
+                fetch('http://127.0.0.1:5000/users', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(saveUser)
+                })
+                    .then(res => res.json())
+                    .then(() => {
+                        navigate(from, { replace: true })
+                    })
             })
+
             .catch(error => {
                 setError(error.message)
             })
