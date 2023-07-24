@@ -1,13 +1,17 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useNavigation } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import Loading from '../components/Loading';
 
 const Main = () => {
+    const navigation = useNavigation()
     return (
-        <div className=''>
+        <>
             <Navbar />
+            <div>{navigation.state === 'loading' && <Loading />}</div>
             <Outlet />
-        </div>
+
+        </>
     );
 };
 

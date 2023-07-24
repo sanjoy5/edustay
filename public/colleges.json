@@ -117,7 +117,9 @@
         }
     },
     {
-        "_id": 3,
+        "_id": {
+            "$oid": "8q3d1dc5e02fea9da749967b"
+        },
         "collegeImage": "https://i.ibb.co/nfdQY9Z/clg3.jpg",
         "collegeName": "Greenwood Institute of Environmental Sciences",
         "rating": "4",
@@ -173,7 +175,9 @@
         }
     },
     {
-        "_id": 4,
+        "_id": {
+            "$oid": "64bd1dc5e02fea9da749mj98"
+        },
         "collegeImage": "https://i.ibb.co/k53md94/clg4.jpg",
         "collegeName": "Harmony Music Conservatory",
         "rating": "5",
@@ -225,7 +229,9 @@
         }
     },
     {
-        "_id": 5,
+        "_id": {
+            "$oid": "6jhs8dc5e02fea9da749967b"
+        },
         "collegeImage": "https://i.ibb.co/7tvwVVJ/clg5.jpg",
         "collegeName": "Medico Medical College",
         "rating": "3.5",
@@ -282,7 +288,9 @@
         }
     },
     {
-        "_id": 6,
+        "_id": {
+            "$oid": "83sd1dc5e02fea9da749967b"
+        },
         "collegeImage": "https://i.ibb.co/48qb7n4/clg6.jpg",
         "collegeName": "Academic Institute of Technology",
         "rating": "4.5",
@@ -347,7 +355,9 @@
         }
     },
     {
-        "_id": 7,
+        "_id": {
+            "$oid": "64bd1dlav02fea9da749967b"
+        },
         "collegeImage": "https://i.ibb.co/9GWb748/clg7.jpg",
         "collegeName": "International Business School",
         "rating": "5",
@@ -409,7 +419,9 @@
         }
     },
     {
-        "_id": 8,
+        "_id": {
+            "$oid": "64bd1dc5e02fea9da749vn4b"
+        },
         "collegeImage": "https://i.ibb.co/C7vhsyY/clg8.jpg",
         "collegeName": "Artisan Culinary Institute",
         "rating": "4.5",
@@ -464,7 +476,9 @@
         }
     },
     {
-        "_id": 9,
+        "_id": {
+            "$oid": "90jd1dc5e02fea9da749967b"
+        },
         "collegeImage": "https://i.ibb.co/Jm6y7Kh/clg9.jpg",
         "collegeName": "Nova Institute of Astronomy",
         "rating": "4",
@@ -521,7 +535,9 @@
         }
     },
     {
-        "_id": 10,
+        "_id": {
+            "$oid": "64bd1dc5e02fea9da7499ght"
+        },
         "collegeImage": "https://i.ibb.co/GHYTwrc/clg10.jpg",
         "collegeName": "Polyglot Language Academy",
         "rating": "5",

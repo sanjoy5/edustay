@@ -9,6 +9,7 @@ import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 import PrivateRoute from "./PrivateRoute";
 import Success from "../pages/Success";
+import ErrorPage from "../pages/ErrorPage";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
     {
         path: '/success',
         element: <Success />,
+    },
+    {
+        path: '*',
+        element: <ErrorPage />,
     },
 ]);
 
