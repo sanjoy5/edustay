@@ -9,7 +9,7 @@ const Home = () => {
     const [colleges, setColleges] = useState([])
 
     useEffect(() => {
-        fetch('http://127.0.0.1:5000/colleges')
+        fetch('https://edustay-server.vercel.app/colleges')
             .then(res => res.json())
             .then(data => {
                 // console.log(data);

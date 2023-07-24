@@ -8,7 +8,7 @@ const CollegeDetails = () => {
     const { id } = useParams()
 
     useEffect(() => {
-        fetch(`http://127.0.0.1:5000/colleges/${id}`)
+        fetch(`https://edustay-server.vercel.app/colleges/${id}`)
             .then(res => res.json())
             .then(data => {
                 console.log('Single College : ', data);

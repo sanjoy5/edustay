@@ -49,7 +49,7 @@ const Login = () => {
             .then(result => {
                 const loggedUser = result.user
                 const saveUser = { name: loggedUser.displayName, email: loggedUser.email, photo: loggedUser.photoURL }
-                fetch('http://127.0.0.1:5000/users', {
+                fetch('https://edustay-server.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -72,7 +72,7 @@ const Login = () => {
             .then(result => {
                 const loggedUser = result.user
                 const saveUser = { name: loggedUser.displayName, email: loggedUser.email, photo: loggedUser.photoURL, role: 'student' }
-                fetch('http://127.0.0.1:5000/users', {
+                fetch('https://edustay-server.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

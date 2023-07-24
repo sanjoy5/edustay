@@ -36,17 +36,17 @@ const router = createBrowserRouter([
             {
                 path: '/admission/',
                 element: <PrivateRoute><Admission /></PrivateRoute>,
-                loader: () => fetch('http://127.0.0.1:5000/colleges')
+                loader: () => fetch('https://edustay-server.vercel.app/colleges')
             },
             {
                 path: '/admission-form/:id',
                 element: <AdmissionForm />,
-                loader: ({ params }) => fetch(`http://127.0.0.1:5000/colleges/${params.id}`)
+                loader: ({ params }) => fetch(`https://edustay-server.vercel.app/colleges/${params.id}`)
             },
             {
                 path: '/my-college',
                 element: <PrivateRoute><MyCollege /></PrivateRoute>,
-                loader: () => fetch('http://127.0.0.1:5000/colleges')
+                loader: () => fetch('https://edustay-server.vercel.app/colleges')
             },
             {
                 path: '/profile',

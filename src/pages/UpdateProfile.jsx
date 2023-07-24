@@ -11,7 +11,7 @@ const UpdateProfile = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        fetch(`http://127.0.0.1:5000/user/${user?.email}`)
+        fetch(`https://edustay-server.vercel.app/user/${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 setProfile(data)
@@ -29,7 +29,7 @@ const UpdateProfile = () => {
         const userData = { name, photo }
         console.log(userData);
 
-        fetch(`http://127.0.0.1:5000/user-update/${profile._id}`, {
+        fetch(`https://edustay-server.vercel.app/user-update/${profile._id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

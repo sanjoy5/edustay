@@ -11,7 +11,7 @@ const Banner = () => {
     }, [])
 
     const handleSearch = () => {
-        fetch(`http://127.0.0.1:5000/college-search/${searchText}`)
+        fetch(`https://edustay-server.vercel.app/college-search/${searchText}`)
             .then(res => res.json())
             .then(data => {
                 setColleges(data);

@@ -13,7 +13,7 @@ const ReviewSlider = () => {
 
 
     useEffect(() => {
-        fetch('http://127.0.0.1:5000/all-review')
+        fetch('https://edustay-server.vercel.app/all-review')
             .then(res => res.json())
             .then(data => {
                 console.log('data : ', data);

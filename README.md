@@ -1,8 +1,38 @@
-# React + Vite
+# EduStay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created with ReactJS, Express Js and Mongo DB.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Unique Responsive design
+- Added Mongo DB CRUD Functionality
+- Dynamic data fetching from Server Side
+- Dynamicaly display Details Data
+- Added Search Functionality
+- Added Sorting Functionality
+- Firebase Authentication (Email-Password,Google)
+- Private Route Functionality
+- Added Tailwind, Loding, Aos, SweetAlert2, React Hook Form, React-Select and so many Library and packages
+- Added Review and Rating Section
+- Server side deploy in Vercel
+- Client side deploy in Firebase
+
+## Live Site Link
+
+- [Firebase Live Client Side Link](https://edu-stay-da180.web.app)
+- [Vercel Live Server Side Link](https://edustay-server.vercel.app)
+
+## Installation
+
+### For Client Side
+
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm run dev` to start the development server
+
+
+### For Server Side
+
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `nodemon index.js` to start the development server

@@ -12,7 +12,7 @@ const MyCollege = () => {
     const [info, setInfo] = useState({})
 
     useEffect(() => {
-        fetch(`http://127.0.0.1:5000/my-college/${user.email}`)
+        fetch(`https://edustay-server.vercel.app/my-college/${user.email}`)
             .then(res => res.json())
             .then(data => {
                 setInfo(data)

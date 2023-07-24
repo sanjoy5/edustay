@@ -9,7 +9,7 @@ const Profile = () => {
 
 
     useEffect(() => {
-        fetch(`http://127.0.0.1:5000/user/${user?.email}`)
+        fetch(`https://edustay-server.vercel.app/user/${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 setProfile(data)

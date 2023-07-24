@@ -15,7 +15,7 @@ const AdmissionForm = () => {
     const onSubmit = data => {
         // console.log('Form data : ', data);
 
-        fetch('http://127.0.0.1:5000/my-college', {
+        fetch('https://edustay-server.vercel.app/my-college', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -40,7 +40,7 @@ const AdmissionForm = () => {
 
 
     useEffect(() => {
-        fetch(`http://127.0.0.1:5000/my-college/${user.email}`)
+        fetch(`https://edustay-server.vercel.app/my-college/${user.email}`)
             .then(res => res.json())
             .then(data => {
                 setInfo(data)

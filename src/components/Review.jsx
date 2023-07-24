@@ -15,7 +15,7 @@ const Review = ({ college }) => {
         const data = { college, rating, comment, user: user.displayName, userImage: user.photoURL }
         console.log('data : ', data);
 
-        fetch('http://127.0.0.1:5000/review-college', {
+        fetch('https://edustay-server.vercel.app/review-college', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -40,7 +40,7 @@ const Review = ({ college }) => {
     }
 
     useEffect(() => {
-        fetch('http://127.0.0.1:5000/all-review')
+        fetch('https://edustay-server.vercel.app/all-review')
             .then(res => res.json())
             .then(data => {
                 console.log('data : ', data);
